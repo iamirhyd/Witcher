@@ -3,10 +3,11 @@ import PixelBlast from './PixelBlast'
 const LandingPage = () => {
   return (
     <>
-      <section className='relative w-full h-screen'>
+      <section className='relative w-full h-screen '>
 
-        <div className='absolute inset-0 z-0' >
-          <PixelBlast
+        <div className='absolute inset-0 z-0 pointer-events-none blur-xs' >
+          <img src="/background.jpg" alt="" className='w-full h-screen ' />
+          {/* <PixelBlast
             variant="triangle"
             pixelSize={4}
             color="#262626"
@@ -24,17 +25,35 @@ const LandingPage = () => {
             speed={0.35}
             edgeFade={0.15}
             transparent
-          />
+          /> */}
         </div>
-        <div className='relative z-50 flex flex-col items-center justify-center h-full gap-4 px-4 text-center'>
-          <h1 className='text-white font-bold text-3xl font-cinzel'>
-            Gwen Land
-          </h1>
-          <h3 className=' text-white font-cinzel'>
-            One choice. One destiny. One Gwen.
-          </h3>
+        <div className='flex-1'>
+        </div>
+        <div className='relative z-20 flex flex-col items-center justify-center h-screen gap-4 text-center '>
 
+
+          <div className='pb-20 p'>
+            <div className=''>
+              <img src="/WitcherIv.png" className='h-40 ointer-events-none' alt="" />
+            </div>
+            <div>
+              <h3 className='text-cyan-200 font-bold text-3xl font ointer-events-none '>
+                A NEW SAGA BEGINS
+              </h3>
+            </div>
+          </div>
+          <div className=''>
+            <button className='text-white bg-gray-900 px-7 py-3 rounded-md cursor-pointer border border-cyan-200 hover:border-cyan-400 hover:bg-gray-950 tra'>
+              Watch the Trailer
+            </button>
+          </div>
         </div>
+
+
+
+
+
+
       </section >
 
     </>

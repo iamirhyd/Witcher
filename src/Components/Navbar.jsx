@@ -5,15 +5,15 @@ const Navbar = () => {
   return (
     <nav className='bg-transparent text-white flex justify-between items-center py-2 px-6 z-50 top-2 w-full fixed '>
       <div className='flex items-center gap-6'>
-        <ul className='flex cursor-pointer hover:text-red-500 transform-3d'>
+        <ul className='flex cursor-pointer hover:text-cyan-200 transform-3d'>
           <Dices className='h-5' />
           <li className='text-base'>Games</li>
         </ul>
-        <ul className='flex cursor-pointer hover:text-red-500 transform-3d'>
+        <ul className='flex cursor-pointer hover:text-cyan-200 transform-3d'>
           <ShoppingCart className='h-5' />
           <li className='text-base'>Shop</li>
         </ul>
-        <ul className='flex cursor-pointer hover:text-red-500 transform-3d'>
+        <ul className='flex cursor-pointer hover:text-cyan-200 transform-3d'>
           <Book className='h-5' />
           <li className='text-base'>Wiki</li>
         </ul>
