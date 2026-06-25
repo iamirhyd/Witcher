@@ -19,15 +19,14 @@ const Navbar = () => {
         </ul>
       </div>
       <div className='shrink-0'>
-        <img src="/Logo.png" alt="" className='h-15' />
+        <img src={`${import.meta.env.BASE_URL}./Logo.png`} alt="" className='h-15' />
       </div>
       <div>
         <div className='flex items-center gap-10'>
 
           <Bell />
-          <ul className='flex items-center gap-4 border bg-gray-700 px-7 rounded-2xl'>
-            <a className='cursor-pointer'>Login</a>
-            <a className='cursor-pointer'>Sign Up</a>
+          <ul className='flex items-center gap-4  px-8 py-2 rounded-md'>
+            <a className='cursor-pointer'>Login / SignUp</a>
           </ul>
         </div>
       </div>
