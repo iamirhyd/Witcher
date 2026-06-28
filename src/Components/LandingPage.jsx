@@ -6,7 +6,7 @@ const LandingPage = () => {
 
 
     <>
-      <section className='relative w-full h-screen '>
+      <section className='relative w-full h-screen ' >
 
         <div className='absolute inset-0 z-0 pointer-events-none blur-xs' >
           <img src={`${import.meta.env.BASE_URL}./background.jpg`} alt="" className='w-full h-screen ' />
@@ -35,12 +35,12 @@ const LandingPage = () => {
         <div className='relative z-20 flex flex-col items-center justify-center h-screen gap-4 text-center '>
 
 
-          <div className='pb-20 p'>
+          <div className='pb-20 p '>
             <div className=''>
               <img src={`${import.meta.env.BASE_URL}./WitcherIv.png`} className='h-40 ointer-events-none' alt="" />
             </div>
             <div>
-              <h3 className='text-cyan-200 font-bold text-3xl font ointer-events-none '>
+              <h3 className='text-[#a0ffed] font-bold text-3xl font ointer-events-none '>
                 A NEW SAGA BEGINS
               </h3>
             </div>

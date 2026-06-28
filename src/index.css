@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
 @import "tailwindcss";
+@plugin 'tailwind-scrollbar';
 
-
+@theme {
+  --color-regal-blue: #243c5a; 
+}
 @layer base{
   html{
    

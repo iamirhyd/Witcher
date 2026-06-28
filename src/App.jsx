@@ -2,8 +2,8 @@ import React from 'react'
 import Home from './Page/Home'
 const App = () => {
   return (
-    <div>
-      <Home />
+    <div className=''>
+      <Home cl />
     </div>
   )
 }
