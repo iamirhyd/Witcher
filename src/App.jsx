@@ -3,7 +3,7 @@ import Home from './Page/Home'
 const App = () => {
   return (
     <div className=''>
-      <Home cl />
+      <Home />
     </div>
   )
 }

@@ -4,7 +4,7 @@ import { Dices, ShoppingCart, Bell, Book } from 'lucide-react'
 const Navbar = () => {
   return (
     <nav className='bg-transparent text-white flex justify-between items-center py-2 px-6 z-50 top-2 w-full fixed '>
-      <div className='flex items-center gap-6'>
+      <div className='flex items-center gap-4'>
         <ul className='flex cursor-pointer hover:text-cyan-200 transform-3d'>
           <Dices className='h-5' />
           <li className='text-base'>About</li>
